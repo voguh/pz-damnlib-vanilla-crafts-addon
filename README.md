@@ -1,8 +1,7 @@
 # DAMN Library Vanilla Crafts Addon
 
 
-This mod aims to extend the functionalities of the [damnlib](https://steamcommunity.com/workshop/filedetails/?id=3171167894) mod by adding recipes
-for the standard vehicle parts in the game.
+This mod aims to extend the functionalities of the [damnlib](https://steamcommunity.com/workshop/filedetails/?id=3171167894) mod by adding recipes for the standard vehicle parts in the game.
 
 
 ## Crafts added
