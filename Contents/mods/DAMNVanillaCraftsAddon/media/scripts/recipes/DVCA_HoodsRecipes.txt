@@ -1,0 +1,56 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Hood Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=9,
+        damnCraft.HingeLarge=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.EngineDoor1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Hood Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=9,
+        damnCraft.HingeLarge=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.EngineDoor2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Hood Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=9,
+        damnCraft.HingeLarge=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.EngineDoor3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+}

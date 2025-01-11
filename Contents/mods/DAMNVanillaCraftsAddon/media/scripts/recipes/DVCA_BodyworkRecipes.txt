@@ -1,0 +1,164 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Big Gas Tank Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=8,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:BigGasTank1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Big Gas Tank Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=8,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:BigGasTank2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Big Gas Tank Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=8,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=4,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:BigGasTank3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Standard Gas Tank Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=6,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=3,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:NormalGasTank1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Standard Gas Tank Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=6,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=3,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:NormalGasTank2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Standard Gas Tank Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=6,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=3,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:NormalGasTank3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Small Gas Tank Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:SmallGasTank1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Small Gas Tank Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:SmallGasTank2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+
+    recipe Make Small Gas Tank Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:SmallGasTank3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=5,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding20,
+    }
+}

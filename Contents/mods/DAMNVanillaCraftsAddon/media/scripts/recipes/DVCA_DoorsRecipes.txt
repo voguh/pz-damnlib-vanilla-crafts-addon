@@ -1,0 +1,182 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Front Door Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.FrontCarDoor1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Front Door Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.FrontCarDoor2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Front Door Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.FrontCarDoor3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Rear Door Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoor1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Rear Door Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoor2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Rear Door Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoor3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Double Rear Door Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoorDouble1,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Double Rear Door Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoorDouble2,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+
+    recipe Make Double Rear Door Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=10,
+        damnCraft.HandleModern,
+        damnCraft.HingeSmall=2,
+        Base.SmallSheetMetal=2,
+        Base.SheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.RearCarDoorDouble3,
+        Time:1000.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=7,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+    }
+}

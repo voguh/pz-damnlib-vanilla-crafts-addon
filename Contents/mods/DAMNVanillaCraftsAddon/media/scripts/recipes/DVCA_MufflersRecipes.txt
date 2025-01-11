@@ -1,0 +1,56 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Average Muffler Type Standard
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SheetMetal=1,
+        Base.SmallSheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarMuffler1,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=3,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+    }
+
+    recipe Make Average Muffler Type Heavy-Duty
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SheetMetal=1,
+        Base.SmallSheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarMuffler2,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=3,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+    }
+
+    recipe Make Average Muffler Type Sport
+    {
+        keep [Recipe.GetItemTypes.WeldingMask],
+        Base.BlowTorch=4,
+        Base.SheetMetal=1,
+        Base.SmallSheetMetal=2,
+        Base.Screws=2,
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarMuffler3,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:MetalWelding=3,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+    }
+}

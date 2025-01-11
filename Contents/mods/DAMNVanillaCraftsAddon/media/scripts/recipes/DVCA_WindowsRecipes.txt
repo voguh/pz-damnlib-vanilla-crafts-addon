@@ -1,0 +1,188 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Front Window Type Standard
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.FrontWindow1,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Front Window Type Heavy-Duty
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.FrontWindow2,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Front Window Type Sport
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.FrontWindow3,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Window Type Standard
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindow1,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Window Type Heavy-Duty
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindow2,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Window Type Sport
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneSmall,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindow3,
+        Time:300.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Windshield Type Standard
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.Windshield1,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Windshield Type Heavy-Duty
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.Windshield2,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Windshield Type Sport
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.Windshield3,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Windshield Type Standard
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindshield1,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Windshield Type Heavy-Duty
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindshield2,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Rear Windshield Type Sport
+    {
+        keep Base.Scalpel,
+        Prop1:Base.Scalpel,
+        damnCraft.GlassPaneLarge,
+        damnCraft.RubberStrip=4,
+
+        NoBrokenItems:true,
+        Result:Base.RearWindshield3,
+        Time:400.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=4,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+    }
+}

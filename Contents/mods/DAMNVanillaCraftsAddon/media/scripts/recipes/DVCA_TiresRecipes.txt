@@ -1,0 +1,50 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Regular Tire Type Standard
+    {
+        keep Base.Crowbar,
+        Prop1:Base.Crowbar,
+        damnCraft.SteelRimSmall,
+        damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+        NoBrokenItems:true,
+        Result:Base.NormalTire1,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=2,
+        OnCreate:DAMN.OnCreate.MakeSmallTire,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Regular Tire Type Heavy-Duty
+    {
+        keep Base.Crowbar,
+        Prop1:Base.Crowbar,
+        damnCraft.SteelRimSmall,
+        damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+        NoBrokenItems:true,
+        Result:Base.NormalTire2,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=2,
+        OnCreate:DAMN.OnCreate.MakeSmallTire,
+        CanBeDoneFromFloor:true,
+    }
+
+    recipe Make Regular Tire Type Sport
+    {
+        keep Base.Crowbar,
+        Prop1:Base.Crowbar,
+        damnCraft.SteelRimSmall,
+        damnCraft.TireRubberNewSmall/damnCraft.TireRubberUsedSmall/damnCraft.TireRubberDestroyedSmall,
+
+        NoBrokenItems:true,
+        Result:Base.NormalTire3,
+        Time:700.0,
+        Category:Mechanical,
+        SkillRequired:Mechanics=2,
+        OnCreate:DAMN.OnCreate.MakeSmallTire,
+        CanBeDoneFromFloor:true,
+    }
+}

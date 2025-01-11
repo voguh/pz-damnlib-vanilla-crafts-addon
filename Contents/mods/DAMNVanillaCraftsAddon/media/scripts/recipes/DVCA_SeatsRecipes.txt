@@ -1,0 +1,53 @@
+module DAMNLIBVanillaCraftsAddon
+{
+    recipe Make Standard Seat Type Standard
+    {
+        damnCraft.SeatFabric,
+        damnCraft.SeatFoam=2,
+        damnCraft.SeatFrameLarge,
+        Base.Screws=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarSeat1,
+        Time:800.0,
+        Category:Mechanical,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+    recipe Make Standard Seat Type Heavy-Duty
+    {
+        damnCraft.SeatFabric,
+        damnCraft.SeatFoam=2,
+        damnCraft.SeatFrameLarge,
+        Base.Screws=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarSeat2,
+        Time:800.0,
+        Category:Mechanical,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+
+    recipe Make Standard Seat Type Sport
+    {
+        damnCraft.SeatFabric,
+        damnCraft.SeatFoam=2,
+        damnCraft.SeatFrameLarge,
+        Base.Screws=1,
+        keep [Recipe.GetItemTypes.Screwdriver],
+
+        NoBrokenItems:true,
+        Result:Base.NormalCarSeat3,
+        Time:800.0,
+        Category:Mechanical,
+        NeedToBeLearn:true,
+        CanBeDoneFromFloor:true,
+        OnGiveXP:DAMN.OnGiveXP.Mechanics10,
+    }
+}
