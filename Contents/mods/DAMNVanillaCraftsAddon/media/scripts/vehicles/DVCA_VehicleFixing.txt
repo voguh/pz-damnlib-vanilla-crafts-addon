@@ -1,0 +1,18 @@
+module Base
+{
+    recipe Repair Tire
+    {
+        Base.OldTire1/Base.OldTire2/Base.OldTire3/Base.NormalTire1/Base.NormalTire2/Base.NormalTire3/Base.ModernTire1/Base.ModernTire2/Base.ModernTire3,
+        damnCraft.TireRepairTools,
+        damnCraft.TireRepairRubberSolution,
+        damnCraft.TireRepairStrips,
+
+        NoBrokenItems:false,
+        Result:damnCraft.TireRepairTools,
+        Time:250.0,
+        -- Category:Mechanical,
+        -- SkillRequired:Mechanics=2,
+        OnCreate:DAMN.OnCreate.RepairTire,
+        CanBeDoneFromFloor:true,
+    }
+}
