@@ -1,6 +1,6 @@
 version=1
 id=3394427308
-title=DAMN Library Vanilla Crafts Addon
+title=[B41] DAMN Library Vanilla Crafts Addon
 description=This mod uses [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3171167894]that DAMN Library[/url] created by [url=https://steamcommunity.com/id/KI5]KI5[/url] and adds recipes to craft some vanilla vehicle items from Project Zomboid, following the same principles as the crafting recipes for equivalent items in KI5 mods.
 description=
 description=[h2]Does this mod work with an existing save?[/h2]
@@ -86,9 +86,11 @@ description=[/table]
 description=
 description=
 description=
-description=This item is not authorized for posting on Steam, except under the Steam account named Voguh.
-description=[code]
-description=This project is under GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
-description=[/code]
+description=[quote]
+description=⚠️ This item is not authorized for posting on Steam, except under the Steam account named Voguh.
+description=[/quote]
+description=[quote]
+description=⚠️ This project is under GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
+description=[/quote]
 tags=Build 41;Items;Vehicles
-visibility=friendsOnly
+visibility=public
