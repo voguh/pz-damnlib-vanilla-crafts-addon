@@ -1,5 +1,17 @@
 # DAMN Library Vanilla Crafts Addon
 
+## 1.0.1
+
+Project files cleanup.
+
+### Removed
+
+- Removed file `media/scripts/DVCA_Items.txt`;
+
+
+---
+
+
 ## 1.0.0
 
 This was de first stable release.

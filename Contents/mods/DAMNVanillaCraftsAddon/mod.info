@@ -1,7 +1,8 @@
 id=DAMNVanillaCraftsAddon
 name=DAMN Library Vanilla Crafts Addon
-modversion=1.0.0
+modversion=1.0.1
 url=https://github.com/voguh/pz-damnlib-vanilla-crafts-addon
 description=This mod adds crafting recipes to the DAMN Library to create the game's standard vehicle parts.
+author=Voguh
 poster=poster.png
 require=damnlib
