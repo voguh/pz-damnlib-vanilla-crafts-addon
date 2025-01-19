@@ -89,8 +89,7 @@ description=
 description=[quote]
 description=⚠️ This item is not authorized for posting on Steam, except under the Steam account named Voguh.
 description=[/quote]
-description=[quote]
-description=⚠️ This project is under GNU LESSER GENERAL PUBLIC LICENSE, Version 3.
-description=[/quote]
+description=
+description=[url=https://github.com/voguh/pz-damnlib-vanilla-crafts-addon][img]https://raw.githubusercontent.com/voguh/pz-damnlib-vanilla-crafts-addon/refs/heads/main/docs/workshop_footer.png[/img][/url]
 tags=Build 41;Items;Vehicles
 visibility=public
