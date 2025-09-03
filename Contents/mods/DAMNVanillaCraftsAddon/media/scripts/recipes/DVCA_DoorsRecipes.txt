@@ -1,4 +1,4 @@
-module DAMNLIBVanillaCraftsAddon
+module Base
 {
     recipe Make Front Door Type Standard
     {

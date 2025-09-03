@@ -1,4 +1,4 @@
-module DAMNLIBVanillaCraftsAddon
+module Base
 {
     recipe Make Average Muffler Type Standard
     {

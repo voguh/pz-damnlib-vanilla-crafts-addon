@@ -1,4 +1,4 @@
-module DAMNLIBVanillaCraftsAddon
+module Base
 {
     recipe Make Standard Seat Type Standard
     {
