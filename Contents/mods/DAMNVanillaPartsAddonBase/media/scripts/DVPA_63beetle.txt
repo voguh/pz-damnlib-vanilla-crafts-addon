@@ -1,0 +1,96 @@
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 63beetle tires are added by damnlib and not by 63beetle   */
+    /* mod. So check DVPA_damnlib.txt to check or edit these recipes.         */
+    recipe Convert to Vanilla Tire
+    {
+        Base.63beetleTireOffroad,
+
+        Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanilla Tire
+    {
+        Base.63beetleTireSlick,
+
+        Result:Base.ModernTire1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.63beetleFrontSeat1/Base.63beetleRearSeat1,
+
+        Result:Base.NormalCarSeat1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.63beetleEngineDoor1,
+
+        Result:Base.EngineDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.63beetleTrunkDoor1,
+
+        Result:Base.TrunkDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.63beetleWindshield1,
+
+        Result:Base.Windshield1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.63beetleWindshieldRear1,
+
+        Result:Base.RearWindshield1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.63beetleDoor1,
+
+        Result:Base.FrontCarDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.63beetleFrontSideWindow1,
+
+        Result:Base.FrontWindow1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.63beetleRearSideWindow1,
+
+        Result:Base.RearWindow1,
+        Time:5.0
+    }
+}

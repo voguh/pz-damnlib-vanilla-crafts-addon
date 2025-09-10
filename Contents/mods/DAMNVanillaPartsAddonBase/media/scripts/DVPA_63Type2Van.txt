@@ -1,0 +1,96 @@
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 63Type2Van tires are added by damnlib and not by          */
+    /* 63Type2Van mod. So check DVPA_damnlib.txt to check or edit these       */
+    /* recipes.                                                               */
+    recipe Convert to Vanilla Tire
+    {
+        Base.63Type2VanTireOffroad,
+
+        Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.63Type2VanFrontSeat1/Base.63Type2VanRearSeat1,
+
+        Result:Base.NormalCarSeat1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.63Type2VanEngineDoor1,
+
+        Result:Base.EngineDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.63Type2VanTrunkDoor1/Base.63Type2VanTruckBedLid1,
+
+        Result:Base.TrunkDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.63Type2VanWindshield1,
+
+        Result:Base.Windshield1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.63Type2VanWindshieldRear1,
+
+        Result:Base.RearWindshield1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.63Type2VanFrontDoor1,
+
+        Result:Base.FrontCarDoor1,
+        Time:5.0
+    }
+    recipe Convert to Vanila Rear Door
+    {
+        Base.63Type2VanRearSplitDoor1/Base.63Type2VanRearDoor1,
+
+        Result:Base.RearCarDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.63Type2VanFrontSideWindow1,
+
+        Result:Base.FrontWindow1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.63Type2VanRearDoubleWindow1/Base.63Type2VanRearSideWindow1,
+
+        Result:Base.RearWindow1,
+        Time:5.0
+    }
+}
