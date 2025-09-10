@@ -112,4 +112,4 @@ n/a
 
 ## License
 
-This project is under [GNU LESSER GENERAL PUBLIC LICENSE, Version 3](./LICENSE).
+This project is under [Mozilla Public License, Version 2.0](./LICENSE).
