@@ -41,7 +41,7 @@ module Base
 
     recipe Convert to Vanilla Tire Type Sport
     {
-        Base.75grandPrixR217Tire3/Base.75grandPrixR215Tire1/Base.DodgeRTtire3,
+        Base.75grandPrixR217Tire3/Base.75grandPrixR215Tire1/Base.DodgeRTtire3/Base.CamaroSStire3,
 
         Result:Base.NormalTire3,
         Time:5.0

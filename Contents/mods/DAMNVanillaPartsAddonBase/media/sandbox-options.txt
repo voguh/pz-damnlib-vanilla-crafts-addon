@@ -88,3 +88,10 @@ option DAMNVanillaPartsAddon.Enable_69mini {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_69mini
 }
+
+option DAMNVanillaPartsAddon.Enable_79dodge {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_79dodge
+}
