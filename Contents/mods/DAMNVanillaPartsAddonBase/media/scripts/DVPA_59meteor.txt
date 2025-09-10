@@ -1,0 +1,102 @@
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Tire
+    {
+        Base.ECTO1tire2_Item,
+
+        Result:Base.NormalTire2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanilla Tire
+    {
+        Base.ECTO1tire1_Item,
+
+        Result:Base.ModernTire2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.ECTO1CarSeatfl2/Base.ECTO1CarSeatfr2/Base.ECTO1CarSeatrl2/Base.ECTO1CarSeatrr2,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.ECTO1EngineDoor2,
+
+        Result:Base.EngineDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.ECTO1TrunkDoor2,
+
+        Result:Base.TrunkDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.ECTO1Windshield2,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.ECTO1RearWindshield2,
+
+        Result:Base.RearWindshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.ECTO1CarFrontDoor2,
+
+        Result:Base.FrontCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Door
+    {
+        Base.ECTO1CarRearDoor2,
+
+        Result:Base.RearCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.ECTO1SideWindow2,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.ECTO1SideWindow2,
+
+        Result:Base.RearWindow2,
+        Time:5.0
+    }
+}
