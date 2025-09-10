@@ -53,3 +53,10 @@ option DAMNVanillaPartsAddon.Enable_66pontiacLeMans {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_66pontiacLeMans
 }
+
+option DAMNVanillaPartsAddon.Enable_67commando {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_67commando
+}

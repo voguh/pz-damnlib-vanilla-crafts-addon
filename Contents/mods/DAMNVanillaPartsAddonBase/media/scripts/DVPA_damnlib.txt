@@ -17,9 +17,25 @@ module Base
     /**************************************************************************/
     recipe Convert to Vanilla Tire Type Standard
     {
-        Base.63beetleTire/Base.75grandPrixR215Tire1,
+        Base.63beetleTire,
 
         Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanilla Tire Type Heavy-Duty
+    {
+        Base.V100Tire2,
+
+        Result:Base.OldTire2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanilla Tire Type Heavy-Duty
+    {
+        runFlat.LargeTire,
+
+        Result:Base.NormalTire2,
         Time:5.0
     }
 
@@ -28,6 +44,55 @@ module Base
         Base.75grandPrixR217Tire3/Base.75grandPrixR215Tire1,
 
         Result:Base.NormalTire3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat Type Heavy-Duty
+    {
+        USMIL.Seat0,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Windshield Type Heavy-Duty
+    {
+        USMIL.SmallViewportPack0,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield Type Heavy-Duty
+    {
+        USMIL.SmallViewport0,
+
+        Result:Base.RearWindshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Window Type Heavy-Duty
+    {
+        USMIL.SmallViewport0,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window Type Heavy-Duty
+    {
+        USMIL.SmallViewport0,
+
+        Result:Base.RearWindow2,
         Time:5.0
     }
 }

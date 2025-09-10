@@ -1,0 +1,90 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 67commando tires are added by damnlib and not by          */
+    /* 67commando mod. So check DVPA_damnlib.txt to check or edit these       */
+    /* recipes.                                                               */
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 67commando seats are added by damnlib and not by          */
+    /* 67commando mod. So check DVPA_damnlib.txt to check or edit these       */
+    /* recipes.                                                               */
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.V100EngineDoor2,
+
+        Result:Base.EngineDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.V100Window2,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.V100Window2,
+
+        Result:Base.RearWindshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.FrontLeftV100Door2/Base.FrontRightV100Door2,
+
+        Result:Base.FrontCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Door
+    {
+        Base.RearV100Door2,
+
+        Result:Base.RearCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.V100Window2,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.V100Window2,
+
+        Result:Base.RearWindow2,
+        Time:5.0
+    }
+}
