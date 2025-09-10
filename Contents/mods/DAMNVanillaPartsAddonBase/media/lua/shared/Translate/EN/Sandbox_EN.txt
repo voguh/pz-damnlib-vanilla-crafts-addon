@@ -12,6 +12,10 @@
 
 Sandbox_EN = {
     DAMNVanillaPartsAddon = "DAMN Vanilla Parts Addon",
-    DAMNVanillaPartsAddon_Enable_63beetle = "Enable vanilla parts for '63 Volkswagen Beetle",
-    DAMNVanillaPartsAddon_Enable_66pontiac = "Enable vanilla parts for '66 Pontiac GTO/LeMans",
+    DAMNVanillaPartsAddon_Enable_49powerWagon = "Enable vanilla parts for '49 Dodge Power Wagon Crew Cab",
+    DAMNVanillaPartsAddon_Enable_49ford8N = "Enable vanilla parts for '49 Ford 8N Tractor",
+    DAMNVanillaPartsAddon_Enable_59meteor = "Enable vanilla parts for '59 Cadillac Miller-Meteor",
+    DAMNVanillaPartsAddon_Enable_63beetle = "Enable vanilla parts for '63 Volkswagen 1300 Beetle",
+    DAMNVanillaPartsAddon_Enable_63Type2Van = "Enable vanilla parts for '63 Volkswagen Type 2 Van",
+    DAMNVanillaPartsAddon_Enable_66pontiacLeMans = "Enable vanilla parts for '66 Pontiac LeMans / GTO",
 }

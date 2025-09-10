@@ -12,16 +12,44 @@
 
 VERSION = 1,
 
+option DAMNVanillaPartsAddon.Enable_49powerWagon {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_49powerWagon
+}
+
+option DAMNVanillaPartsAddon.Enable_49ford8N {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_49ford8N
+}
+
+option DAMNVanillaPartsAddon.Enable_59meteor {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_59meteor
+}
+
 option DAMNVanillaPartsAddon.Enable_63beetle {
     type = boolean,
     default = false,
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_63beetle
-},
+}
 
-option DAMNVanillaPartsAddon.Enable_66pontiac {
+option DAMNVanillaPartsAddon.Enable_63Type2Van {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_63Type2Van
+}
+
+option DAMNVanillaPartsAddon.Enable_66pontiacLeMans {
     type = boolean,
     default = false,
     page = DAMNVanillaPartsAddon,
-    translation = DAMNVanillaPartsAddon_Enable_66pontiac
+    translation = DAMNVanillaPartsAddon_Enable_66pontiacLeMans
 }
