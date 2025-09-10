@@ -76,7 +76,6 @@ module Base
         Time:5.0
     }
 
-
     recipe Convert to Vanila Rear Door
     {
         Base.49powerWagonRearDoor2,
