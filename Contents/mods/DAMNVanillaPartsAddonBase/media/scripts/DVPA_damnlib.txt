@@ -17,7 +17,7 @@ module Base
     /**************************************************************************/
     recipe Convert to Vanilla Tire Type Standard
     {
-        Base.63beetleTire,
+        Base.63beetleTire/Base.75grandPrixR217Tire3/Base.75grandPrixR215Tire1,
 
         Result:Base.NormalTire1,
         Time:5.0

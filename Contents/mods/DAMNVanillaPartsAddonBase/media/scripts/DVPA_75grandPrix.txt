@@ -1,0 +1,101 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 75grandPrix tires are added by damnlib and not            */
+    /* by 75grandPrix mod. So check DVPA_damnlib.txt to check or edit         */
+    /* these recipes.                                                         */
+    recipe Convert to Vanila Tire
+    {
+        Base.75grandPrixH17Tire3,
+
+        Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.75grandPrixSeatFront1/Base.75grandPrixSeatRear1,
+
+        Result:Base.NormalCarSeat1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.75grandPrixEngineDoor1,
+
+        Result:Base.EngineDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.75grandPrixTrunkDoor1,
+
+        Result:Base.TrunkDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.75grandPrixWindshield1,
+
+        Result:Base.Windshield1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.75grandPrixRearWindshield1,
+
+        Result:Base.RearWindshield1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.75grandPrixFrontDoor1,
+
+        Result:Base.FrontCarDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.75grandPrixFrontSideWindow1,
+
+        Result:Base.FrontWindow1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.75grandPrixRearSideWindow1,
+
+        Result:Base.RearWindow1,
+        Time:5.0
+    }
+}

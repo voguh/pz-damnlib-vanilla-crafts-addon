@@ -27,4 +27,5 @@ Sandbox_EN = {
     DAMNVanillaPartsAddon_Enable_70barracuda = "Enable vanilla parts for '70 Plymouth Barracuda"
     DAMNVanillaPartsAddon_Enable_73fordFalcon = "Enable vanilla parts for '73 Ford Falcon"
     DAMNVanillaPartsAddon_Enable_74amgeneralM151A2 = "Enable vanilla parts for '74 AM General M151A2 MUTT"
+    DAMNVanillaPartsAddon_Enable_75grandPrix = "Enable vanilla parts for '75 Pontiac Grand Prix"
 }

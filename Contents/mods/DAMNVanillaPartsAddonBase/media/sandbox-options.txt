@@ -116,3 +116,10 @@ option DAMNVanillaPartsAddon.Enable_74amgeneralM151A2 {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_74amgeneralM151A2
 }
+
+option DAMNVanillaPartsAddon.Enable_75grandPrix {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_75grandPrix
+}
