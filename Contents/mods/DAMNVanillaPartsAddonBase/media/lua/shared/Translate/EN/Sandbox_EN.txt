@@ -1,0 +1,5 @@
+Sandbox_EN = {
+    DAMNVanillaPartsAddon = "DAMN Vanilla Parts Addon",
+    DAMNVanillaPartsAddon_Enable_63beetle = "Enable vanilla parts for '63 Volkswagen Beetle",
+    DAMNVanillaPartsAddon_Enable_66pontiac = "Enable vanilla parts for '66 Pontiac GTO/LeMans",
+}

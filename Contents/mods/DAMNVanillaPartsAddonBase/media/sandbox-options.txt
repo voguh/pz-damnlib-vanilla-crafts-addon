@@ -1,0 +1,15 @@
+VERSION = 1,
+
+option DAMNVanillaPartsAddon.Enable_63beetle {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_63beetle
+},
+
+option DAMNVanillaPartsAddon.Enable_66pontiac {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_66pontiac
+}
