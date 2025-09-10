@@ -52,7 +52,7 @@ module Base
     /**************************************************************************/
     recipe Convert to Vanila Seat Type Heavy-Duty
     {
-        USMIL.Seat0,
+        USMIL.Seat0/USMIL.Seat1front/USMIL.Seat1rear/USMIL.Seat2,
 
         Result:Base.NormalCarSeat2,
         Time:5.0
@@ -63,7 +63,7 @@ module Base
     /**************************************************************************/
     recipe Convert to Vanila Windshield Type Heavy-Duty
     {
-        USMIL.SmallViewportPack0,
+        USMIL.SmallViewportPack0/USMIL.LargeViewportPack0,
 
         Result:Base.Windshield2,
         Time:5.0
@@ -71,7 +71,7 @@ module Base
 
     recipe Convert to Vanila Rear Windshield Type Heavy-Duty
     {
-        USMIL.SmallViewport0,
+        USMIL.SmallViewport0/USMIL.LargeViewport0,
 
         Result:Base.RearWindshield2,
         Time:5.0
@@ -82,7 +82,7 @@ module Base
     /**************************************************************************/
     recipe Convert to Vanila Front Window Type Heavy-Duty
     {
-        USMIL.SmallViewport0,
+        USMIL.SmallViewport0/USMIL.LargeViewport0,
 
         Result:Base.FrontWindow2,
         Time:5.0
@@ -90,7 +90,7 @@ module Base
 
     recipe Convert to Vanila Rear Window Type Heavy-Duty
     {
-        USMIL.SmallViewport0,
+        USMIL.SmallViewport0/USMIL.LargeViewport0,
 
         Result:Base.RearWindow2,
         Time:5.0
