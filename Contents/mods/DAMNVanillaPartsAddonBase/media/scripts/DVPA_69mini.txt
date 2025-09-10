@@ -1,0 +1,98 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Tire
+    {
+        Base.69miniTire1/Base.69miniTirePS1,
+
+        Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.69miniSeatFront1/Base.69miniSeatRear1,
+
+        Result:Base.NormalCarSeat1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.69miniEngineDoor1/Base.69miniEngineDoorBelts1/Base.69miniEngineDoorPitbull1,
+
+        Result:Base.EngineDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.69miniTrunkDoor1,
+
+        Result:Base.TrunkDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.69miniWindshield1,
+
+        Result:Base.Windshield1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.69miniRearWindshield1,
+
+        Result:Base.RearWindshield1,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.69miniFrontDoor1,
+
+        Result:Base.FrontCarDoor1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.69miniSideWindowFront1,
+
+        Result:Base.FrontWindow1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.69miniSideWindowRear1,
+
+        Result:Base.RearWindow1,
+        Time:5.0
+    }
+}
