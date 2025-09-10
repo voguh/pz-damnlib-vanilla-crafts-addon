@@ -74,3 +74,10 @@ option DAMNVanillaPartsAddon.Enable_68firebird {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_68firebird
 }
+
+option DAMNVanillaPartsAddon.Enable_69camaro {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_69camaro
+}

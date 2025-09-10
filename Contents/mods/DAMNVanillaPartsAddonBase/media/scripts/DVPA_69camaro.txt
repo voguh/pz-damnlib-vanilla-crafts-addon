@@ -1,0 +1,85 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 69camaro tires are added by damnlib and not by 69camaro   */
+    /* mod. So check DVPA_damnlib.txt to check or edit these recipes.         */
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.69camaroFrontSeat3/Base.69camaroRearSeat3,
+
+        Result:Base.NormalCarSeat3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.69camaroEngineDoorSS/Base.69camaroEngineDoorRS,
+
+        Result:Base.EngineDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.69camaroTrunkDoor3,
+
+        Result:Base.TrunkDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.69camaroWindshield3,
+
+        Result:Base.Windshield3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.69camaroWindshieldRear3,
+
+        Result:Base.RearWindshield3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.69camaroDoor3,
+
+        Result:Base.FrontCarDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.69camaroFrontSideWindow3,
+
+        Result:Base.FrontWindow3,
+        Time:5.0
+    }
+}
