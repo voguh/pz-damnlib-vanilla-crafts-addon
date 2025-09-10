@@ -1,0 +1,77 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Tire
+    {
+        Base.V102Tire2,
+
+        Result:Base.NormalTire2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 74amgeneralM151A2 seats are added by damnlib and not by   */
+    /* 74amgeneralM151A2 mod. So check DVPA_damnlib.txt to check or edit      */
+    /* these recipes.                                                         */
+    recipe Convert to Vanilla Seat
+    {
+        Base.M151A2CarSeatFront2/Base.M151A2CarSeatRear2,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.M151A2EngineDoor2,
+
+        Result:Base.EngineDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.M151A2Windshield2,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.M151A2LeftDoor2/Base.M151A2RightDoor2,
+
+        Result:Base.FrontCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.M151A2SideWindow2,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+}
