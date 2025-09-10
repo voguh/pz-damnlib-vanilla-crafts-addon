@@ -102,3 +102,10 @@ option DAMNVanillaPartsAddon.Enable_70barracuda {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_70barracuda
 }
+
+option DAMNVanillaPartsAddon.Enable_73fordFalcon {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_73fordFalcon
+}
