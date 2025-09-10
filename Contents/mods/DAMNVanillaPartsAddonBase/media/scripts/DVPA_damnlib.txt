@@ -3,11 +3,19 @@ module Base
     /**************************************************************************/
     /* Tires                                                                  */
     /**************************************************************************/
-    recipe Convert to Vanilla Tire
+    recipe Convert to Vanilla Tire Type Standard
     {
-        Base.63beetleTire,
+        Base.63beetleTire/Base.75grandPrixR215Tire1,
 
         Result:Base.NormalTire1,
+        Time:5.0
+    }
+
+    recipe Convert to Vanilla Tire Type Sport
+    {
+        Base.75grandPrixR217Tire3/Base.75grandPrixR215Tire1,
+
+        Result:Base.NormalTire3,
         Time:5.0
     }
 }

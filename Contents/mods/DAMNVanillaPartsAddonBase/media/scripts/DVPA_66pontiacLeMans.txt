@@ -1,0 +1,74 @@
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 66pontiacLeMans tires are added by damnlib and not        */
+    /* by 66pontiacLeMans mod. So check DVPA_damnlib.txt to check or edit     */
+    /* these recipes.                                                         */
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.66pontiacLeMansSeatFront3/Base.66pontiacLeMansSeatRear3,
+
+        Result:Base.NormalCarSeat3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.66pontiacLeMansEngineDoor3/Base.66pontiacGTOEngineDoor3,
+
+        Result:Base.EngineDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.66pontiacLeMansTrunkDoor3,
+
+        Result:Base.TrunkDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.66pontiacLeMansWindshield3,
+
+        Result:Base.Windshield3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.66pontiacLeMansRearWindshield3,
+
+        Result:Base.RearWindshield3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.66pontiacLeMansFrontDoor3,
+
+        Result:Base.FrontCarDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.66pontiacLeMansFrontSideWindow3,
+
+        Result:Base.FrontWindow3,
+        Time:5.0
+    }
+}
