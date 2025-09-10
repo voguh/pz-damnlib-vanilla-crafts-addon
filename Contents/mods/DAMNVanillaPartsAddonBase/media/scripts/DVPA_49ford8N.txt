@@ -1,0 +1,24 @@
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Tire
+    {
+        Base.49ford8NFrontTire2/Base.49ford8NRearTire2,
+
+        Result:Base.NormalTire2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Seat
+    {
+        Base.49ford8NSeat2,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+}
