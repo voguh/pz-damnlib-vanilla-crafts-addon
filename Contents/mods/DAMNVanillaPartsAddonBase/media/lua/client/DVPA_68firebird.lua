@@ -25,7 +25,6 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "TireRearRight", parts.sportTires);
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "FRB68SpareTire", parts.sportTires);
 
-
     -- Seats
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "SeatFrontLeft", parts.sportSeats);
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "SeatFrontRight", parts.sportSeats);
