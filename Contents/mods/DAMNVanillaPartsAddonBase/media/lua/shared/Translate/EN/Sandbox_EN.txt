@@ -19,4 +19,5 @@ Sandbox_EN = {
     DAMNVanillaPartsAddon_Enable_63Type2Van = "Enable vanilla parts for '63 Volkswagen Type 2 Van",
     DAMNVanillaPartsAddon_Enable_66pontiacLeMans = "Enable vanilla parts for '66 Pontiac LeMans / GTO",
     DAMNVanillaPartsAddon_Enable_67commando = "Enable vanilla parts for '67 M706 Cadillac Gage Commando V100",
+    DAMNVanillaPartsAddon_Enable_67gt500 = "Enable vanilla parts for '67 Shelby GT500 + Eleanor",
 }

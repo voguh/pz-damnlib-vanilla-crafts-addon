@@ -1,0 +1,97 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanilla Tire
+    {
+        Base.67gt500Tire3,
+
+        Result:Base.NormalTire3,
+        Time:5.0
+    }
+    recipe Convert to Vanilla Tire
+    {
+        Base.67gt500eTire3,
+
+        Result:Base.ModernTire3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.67gt500FrontSeat3/Base.67gt500RearSeat3,
+
+        Result:Base.NormalCarSeat3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.67gt500EngineDoor3/Base.67gt500eEngineDoor3,
+
+        Result:Base.EngineDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.67gt500TrunkDoor3,
+
+        Result:Base.TrunkDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.67gt500Windshield3,
+
+        Result:Base.Windshield3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.67gt500WindshieldRear3,
+
+        Result:Base.RearWindshield3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.67gt500Door3,
+
+        Result:Base.FrontCarDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.67gt500FrontSideWindow3,
+
+        Result:Base.FrontWindow3,
+        Time:5.0
+    }
+}

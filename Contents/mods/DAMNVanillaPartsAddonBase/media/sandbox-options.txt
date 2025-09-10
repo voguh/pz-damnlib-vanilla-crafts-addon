@@ -60,3 +60,10 @@ option DAMNVanillaPartsAddon.Enable_67commando {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_67commando
 }
+
+option DAMNVanillaPartsAddon.Enable_67gt500 {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_67gt500
+}
