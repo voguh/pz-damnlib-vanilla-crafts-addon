@@ -1,5 +1,6 @@
 DAMNVanillaPartsAddon = DAMNVanillaPartsAddon or {};
 DAMNVanillaPartsAddon.store = DAMNVanillaPartsAddon.store or {};
+DAMNVanillaPartsAddon.options = SandboxVars.DAMNVanillaPartsAddon or {};
 DAMNVanillaPartsAddon.parts = {
     ["standardTires"] = {"Base.OldTire1","Base.NormalTire1","Base.ModernTire1"},
     ["standardSeats"] = {"Base.NormalCarSeat1"},
@@ -20,6 +21,7 @@ DAMNVanillaPartsAddon.parts = {
     ["heavyDutyRearWindshield"] = {"Base.RearWindshield2"},
     ["heavyDutyFrontDoors"] = {"Base.FrontCarDoor2"},
     ["heavyDutyRearDoors"] = {"Base.RearCarDoor2"},
+    ["heavyDutyDoubleRearDoors"] = {"Base.RearCarDoorDouble2"},
     ["heavyDutyFrontWindows"] = {"Base.FrontWindow2"},
     ["heavyDutyRearWindows"] = {"Base.RearWindow2"},
 
