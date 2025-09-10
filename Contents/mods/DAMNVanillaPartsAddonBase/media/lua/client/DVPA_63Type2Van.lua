@@ -55,7 +55,7 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "WindowBackRight", parts.standardRearWindows);
 end
 
-if getActivatedMods():contains("63Type2Van") then
+if DAMNVanillaPartsAddon:enableFor("63Type2Van") then
     swapPartsForVehicle("Base.63Type2VanApocalypse");
     swapPartsForVehicle("Base.63Type2VanHippie");
     swapPartsForVehicle("Base.63Type2VanMilitary");

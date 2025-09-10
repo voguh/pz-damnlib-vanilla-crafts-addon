@@ -28,6 +28,6 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "SeatFrontLeft", parts.heavyDutySeats);
 end
 
-if getActivatedMods():contains("49ford8N") then
+if DAMNVanillaPartsAddon:enableFor("49ford8N") then
     swapPartsForVehicle("Base.49ford8N");
 end

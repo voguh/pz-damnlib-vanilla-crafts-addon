@@ -44,7 +44,7 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "WindowFrontRight", parts.sportFrontWindows);
 end
 
-if getActivatedMods():contains("66pontiacLeMans") and DAMNVanillaPartsAddon.options.Enable_66pontiacLeMans then
+if DAMNVanillaPartsAddon:enableFor("66pontiacLeMans") then
     swapPartsForVehicle("Base.66pontiacGTO");
     swapPartsForVehicle("Base.66pontiacGTOconv");
     swapPartsForVehicle("Base.66pontiacLeMans");
