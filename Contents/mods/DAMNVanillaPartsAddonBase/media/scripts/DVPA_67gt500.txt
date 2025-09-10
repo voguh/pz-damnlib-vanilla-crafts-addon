@@ -22,6 +22,7 @@ module Base
         Result:Base.NormalTire3,
         Time:5.0
     }
+
     recipe Convert to Vanilla Tire
     {
         Base.67gt500eTire3,
