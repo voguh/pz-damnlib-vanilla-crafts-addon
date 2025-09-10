@@ -44,9 +44,13 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "WindowFrontRight", parts.sportFrontWindows);
 end
 
-if DAMNVanillaPartsAddon:enableFor("66pontiacLeMans") then
-    swapPartsForVehicle("Base.66pontiacGTO");
-    swapPartsForVehicle("Base.66pontiacGTOconv");
-    swapPartsForVehicle("Base.66pontiacLeMans");
-    swapPartsForVehicle("Base.66pontiacLeMansConv");
+local function onLoad()
+    if DAMNVanillaPartsAddon:enableFor("66pontiacLeMans") then
+        swapPartsForVehicle("Base.66pontiacGTO");
+        swapPartsForVehicle("Base.66pontiacGTOconv");
+        swapPartsForVehicle("Base.66pontiacLeMans");
+        swapPartsForVehicle("Base.66pontiacLeMansConv");
+    end
 end
+
+Events.OnLoad.Add(onLoad);

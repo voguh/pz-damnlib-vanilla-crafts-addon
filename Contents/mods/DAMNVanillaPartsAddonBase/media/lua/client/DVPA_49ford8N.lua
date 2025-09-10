@@ -28,6 +28,10 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "SeatFrontLeft", parts.heavyDutySeats);
 end
 
-if DAMNVanillaPartsAddon:enableFor("49ford8N") then
-    swapPartsForVehicle("Base.49ford8N");
+local function onLoad()
+    if DAMNVanillaPartsAddon:enableFor("49ford8N") then
+        swapPartsForVehicle("Base.49ford8N");
+    end
 end
+
+Events.OnLoad.Add(onLoad);

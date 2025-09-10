@@ -47,8 +47,12 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "DoorRear", parts.heavyDutyRearDoors);
 end
 
-if DAMNVanillaPartsAddon:enableFor("67commando") then
-    swapPartsForVehicle("Base.67commando");
-    swapPartsForVehicle("Base.67commandoT50");
-    swapPartsForVehicle("Base.67commandoPolice");
+local function onLoad()
+    if DAMNVanillaPartsAddon:enableFor("67commando") then
+        swapPartsForVehicle("Base.67commando");
+        swapPartsForVehicle("Base.67commandoT50");
+        swapPartsForVehicle("Base.67commandoPolice");
+    end
 end
+
+Events.OnLoad.Add(onLoad);

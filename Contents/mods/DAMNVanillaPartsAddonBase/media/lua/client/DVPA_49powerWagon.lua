@@ -48,9 +48,13 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "WindowRearRight", parts.heavyDutyRearWindows);
 end
 
-if DAMNVanillaPartsAddon:enableFor("49powerWagon") then
-    swapPartsForVehicle("Base.49powerWagonPA");
-    swapPartsForVehicle("Base.49powerWagon");
-    swapPartsForVehicle("Base.49powerWagonMP");
-    swapPartsForVehicle("Base.49powerWagonPD");
+local function onLoad()
+    if DAMNVanillaPartsAddon:enableFor("49powerWagon") then
+        swapPartsForVehicle("Base.49powerWagonPA");
+        swapPartsForVehicle("Base.49powerWagon");
+        swapPartsForVehicle("Base.49powerWagonMP");
+        swapPartsForVehicle("Base.49powerWagonPD");
+    end
 end
+
+Events.OnLoad.Add(onLoad);
