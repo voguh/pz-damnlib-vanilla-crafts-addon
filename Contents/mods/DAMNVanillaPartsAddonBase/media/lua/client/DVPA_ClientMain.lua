@@ -58,7 +58,7 @@ end
 
 function DAMNVanillaPartsAddon:enableFor(modId)
     local sandboxOption = SandboxVars.DAMNVanillaPartsAddon["Enable_" .. modId];
-    return getActivatedMods():contains(modId) and (sandboxOption == nil or sandboxOption == true);
+    return getActivatedMods():contains(modId) and sandboxOption ~= false;
 end
 
 --********************************************************************************************************************--
