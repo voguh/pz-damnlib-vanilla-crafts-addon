@@ -67,3 +67,10 @@ option DAMNVanillaPartsAddon.Enable_67gt500 {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_67gt500
 }
+
+option DAMNVanillaPartsAddon.Enable_68firebird {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_68firebird
+}
