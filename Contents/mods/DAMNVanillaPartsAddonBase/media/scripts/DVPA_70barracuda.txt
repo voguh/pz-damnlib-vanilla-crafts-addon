@@ -1,0 +1,86 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 70barracuda tires are added by damnlib and not by         */
+    /* 70barracuda mod. So check DVPA_damnlib.txt to check or edit these      */
+    /* recipes.                                                               */
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.CUDAFrontSeat3/Base.CUDARearSeat3,
+
+        Result:Base.NormalCarSeat3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.CUDAEngineDoor/Base.CUDAEngineDoorStock/Base.CUDAEngineDoorAAR,
+
+        Result:Base.EngineDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.CUDATrunkDoor3,
+
+        Result:Base.TrunkDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.CUDAWindshield3,
+
+        Result:Base.Windshield3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.CUDAWindshieldRear3,
+
+        Result:Base.RearWindshield3,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.CUDADoor3,
+
+        Result:Base.FrontCarDoor3,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.CUDAFrontSideWindow3,
+
+        Result:Base.FrontWindow3,
+        Time:5.0
+    }
+}

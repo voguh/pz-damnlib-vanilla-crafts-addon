@@ -95,3 +95,10 @@ option DAMNVanillaPartsAddon.Enable_79dodge {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_79dodge
 }
+
+option DAMNVanillaPartsAddon.Enable_70barracuda {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_70barracuda
+}
