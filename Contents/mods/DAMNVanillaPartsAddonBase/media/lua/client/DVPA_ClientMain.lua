@@ -14,7 +14,6 @@
 
 DAMNVanillaPartsAddon = DAMNVanillaPartsAddon or {};
 DAMNVanillaPartsAddon.store = DAMNVanillaPartsAddon.store or {};
-DAMNVanillaPartsAddon.options = SandboxVars.DAMNVanillaPartsAddon or {};
 DAMNVanillaPartsAddon.parts = {
     ["standardTires"] = {"Base.OldTire1","Base.NormalTire1","Base.ModernTire1"},
     ["standardSeats"] = {"Base.NormalCarSeat1"},
@@ -55,6 +54,11 @@ function DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, partId, itemTypes)
     self.store[vehicleId] = self.store[vehicleId] or {};
     self.store[vehicleId][partId] = itemTypes;
     print("DAMNVanillaPartsAddon: Registered vehicle parts replacement for '" .. vehicleId .. "', part '" .. partId .. "'");
+end
+
+function DAMNVanillaPartsAddon:enableFor(modId)
+    local sandboxOption = SandboxVars.DAMNVanillaPartsAddon["Enable_" .. modId];
+    return getActivatedMods():contains(modId) and (sandboxOption == nil or sandboxOption == true);
 end
 
 --********************************************************************************************************************--
