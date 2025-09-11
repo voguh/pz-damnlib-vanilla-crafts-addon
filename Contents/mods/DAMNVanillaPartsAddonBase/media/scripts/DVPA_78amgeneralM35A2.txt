@@ -1,0 +1,81 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", asv
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 78amgeneralM35A2 tires are added by damnlib and not       */
+    /* by 78amgeneralM35A2 mod. So check DVPA_damnlib.txt to check or edit    */
+    /* these recipes.                                                         */
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 78amgeneralM35A2 seats are added by damnlib and not by    */
+    /* 78amgeneralM35A2 mod. So check DVPA_damnlib.txt to check or edit these */
+    /* recipes.                                                               */
+    recipe Convert to Vanila Seat
+    {
+        Base.M35A2CarSeat2,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.M35A2EngineDoor2,
+
+        Result:Base.EngineDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.M35A2tailgate2/Base.M49PumpDoor2,
+
+        Result:Base.TrunkDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.M35A2Windshield2,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.M35A2Door2,
+
+        Result:Base.FrontCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.M35A2SideWindow2,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+}

@@ -147,3 +147,12 @@ option DAMNVanillaPartsAddon.Enable_77firebird {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_77firebird
 }
+
+/******************************************************************************/
+
+option DAMNVanillaPartsAddon.Enable_78amgeneralM35A2 {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_78amgeneralM35A2
+}

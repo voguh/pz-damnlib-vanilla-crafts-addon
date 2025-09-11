@@ -33,7 +33,7 @@ module Base
 
     recipe Convert to Vanilla Tire Type Heavy-Duty
     {
-        runFlat.LargeTire/Base.90chevyCKseriesTire1/Base.90chevyCKseriesTire2/Base.80chevyCKseriesTire1/Base.80chevyCKseriesTire2/Base.76chevyKseriesTire2,
+        runFlat.LargeTire/Base.90chevyCKseriesTire1/Base.90chevyCKseriesTire2/Base.80chevyCKseriesTire1/Base.80chevyCKseriesTire2/Base.76chevyKseriesTire2/Base.V103Tire2/Base.V103Axle2/runFlat.Medium4TireAxle/runFlat.MediumTire,
 
         Result:Base.NormalTire2,
         Time:5.0
