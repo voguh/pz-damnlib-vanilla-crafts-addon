@@ -16,8 +16,17 @@ if not DAMNVanillaPartsAddon then
     require("DVPA_ClientMain");
 end
 
-local MOD_ID = "{MOD_ID}";
-local UNSTABLE_VEHICLES = {};
+local MOD_ID = "76chevyKseries";
+local UNSTABLE_VEHICLES = {
+    ["Base.76chevyK10"] = true,
+    ["Base.76chevyK10fd"] = true,
+    ["Base.76chevyK10spirit"] = true,
+    ["Base.76chevyK20"] = true,
+    ["Base.76chevyK20BigRed"] = true,
+    ["Base.76chevyK20utility"] = true,
+    ["Base.76chevyK30CC"] = true,
+    ["Base.76chevyK30CCutility"] = true
+};
 local parts = DAMNVanillaPartsAddon.parts;
 local function swapPartsForVehicle(vehicleId)
     if not DAMNVanillaPartsAddon:enableUnstableForFor(MOD_ID) and UNSTABLE_VEHICLES[vehicleId] then
@@ -29,6 +38,9 @@ local function swapPartsForVehicle(vehicleId)
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "TireFrontRight", parts.heavyDutyTires);
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "TireRearLeft", parts.heavyDutyTires);
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "TireRearRight", parts.heavyDutyTires);
+    DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "DAMNSpareTire", parts.heavyDutyTires);
+    DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "CH76SpareTireBed", parts.heavyDutyTires);
+    DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "CH76SpareTireRoof", parts.heavyDutyTires);
 
     -- Seats
     DAMNVanillaPartsAddon:replaceVehiclePart(vehicleId, "SeatFrontLeft", parts.heavyDutySeats);
@@ -55,7 +67,20 @@ end
 
 local function onLoad()
     if DAMNVanillaPartsAddon:enableFor(MOD_ID) then
-        -- swapPartsForVehicle("Base.{VEHICLE_ID}");
+        swapPartsForVehicle("Base.76chevyC30CCwrecker");
+        swapPartsForVehicle("Base.76chevyC30SCwrecker");
+        swapPartsForVehicle("Base.76chevyK10");
+        swapPartsForVehicle("Base.76chevyK10fd");
+        swapPartsForVehicle("Base.76chevyK10spirit");
+        swapPartsForVehicle("Base.76chevyK20");
+        swapPartsForVehicle("Base.76chevyK20BigRed");
+        swapPartsForVehicle("Base.76chevyK20utility");
+        swapPartsForVehicle("Base.76chevyK30CC");
+        swapPartsForVehicle("Base.76chevyK30CCdually");
+        swapPartsForVehicle("Base.76chevyK30CCfd");
+        swapPartsForVehicle("Base.76chevyK30CCutility");
+        swapPartsForVehicle("Base.76chevyK30SCdually");
+        swapPartsForVehicle("Base.76chevyK20fd");
     end
 end
 

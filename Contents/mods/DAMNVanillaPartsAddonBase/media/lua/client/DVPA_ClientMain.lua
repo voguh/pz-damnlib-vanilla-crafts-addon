@@ -61,6 +61,11 @@ function DAMNVanillaPartsAddon:enableFor(modId)
     return getActivatedMods():contains(modId) and sandboxOption ~= false;
 end
 
+function DAMNVanillaPartsAddon:enableUnstableForFor(modId)
+    local sandboxOption = SandboxVars.DAMNVanillaPartsAddon["Enable_" .. modId .. "_UNSTABLE"];
+    return getActivatedMods():contains(modId) and sandboxOption ~= false;
+end
+
 --********************************************************************************************************************--
 
 local ISVehicleMechanics = ISVehicleMechanics;

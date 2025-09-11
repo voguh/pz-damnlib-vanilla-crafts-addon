@@ -123,3 +123,18 @@ option DAMNVanillaPartsAddon.Enable_75grandPrix {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_75grandPrix
 }
+
+/******************************************************************************/
+
+option DAMNVanillaPartsAddon.Enable_76chevyKseries {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_76chevyKseries
+}
+option DAMNVanillaPartsAddon.Enable_76chevyKseries_UNSTABLE {
+    type = boolean,
+    default = false,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_76chevyKseries_UNSTABLE
+}

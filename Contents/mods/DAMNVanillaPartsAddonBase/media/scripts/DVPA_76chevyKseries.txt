@@ -1,0 +1,109 @@
+/*!******************************************************************************
+ * DAMN Vanilla Parts Addon
+ * Copyright (C) 2025 Voguh <voguhofc@protonmail.com>
+ *
+ * This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at https://mozilla.org/MPL/2.0/.
+ *
+ * This Source Code Form is "Incompatible With Secondary Licenses", as
+ * defined by the Mozilla Public License, v. 2.0.
+ ******************************************************************************/
+
+module Base
+{
+    /**************************************************************************/
+    /* Tires                                                                  */
+    /**************************************************************************/
+    /* NOTICE: Some 76chevyKseries tires are added by damnlib and not         */
+    /* by 76chevyKseries mod. So check DVPA_damnlib.txt to check or edit      */
+    /* these recipes.                                                         */
+    recipe Convert to Vanilla Tire
+    {
+        Base.76chevyKseriesDoubleTires2,
+
+        Result:Base.NormalTire2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Seats                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Seat
+    {
+        Base.76chevyKseriesSeatFront2/Base.76chevyKseriesSeatRear2,
+
+        Result:Base.NormalCarSeat2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Bodywork                                                               */
+    /**************************************************************************/
+    recipe Convert to Vanila Hood
+    {
+        Base.76chevyKseriesEngineDoor2,
+
+        Result:Base.EngineDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Trunk Lid
+    {
+        Base.76chevyCseriesWreckerTrunkDoor2/Base.76chevyKseriesTrunkDoorFD2/Base.76chevyKseriesTrunkDoor2,
+
+        Result:Base.TrunkDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Windshield
+    {
+        Base.76chevyKseriesWindshield2,
+
+        Result:Base.Windshield2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Windshield
+    {
+        Base.76chevyKseriesRearWindshield2,
+
+        Result:Base.RearWindshield2,
+        Time:5.0
+    }
+
+    /**************************************************************************/
+    /* Doors                                                                  */
+    /**************************************************************************/
+    recipe Convert to Vanila Front Door
+    {
+        Base.76chevyKseriesFrontDoor2,
+
+        Result:Base.FrontCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Door
+    {
+        Base.76chevyKseriesRearDoor2,
+
+        Result:Base.RearCarDoor2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Front Window
+    {
+        Base.76chevyKseriesFrontSideWindow2,
+
+        Result:Base.FrontWindow2,
+        Time:5.0
+    }
+
+    recipe Convert to Vanila Rear Window
+    {
+        Base.76chevyKseriesRearSideWindow2,
+
+        Result:Base.RearWindow2,
+        Time:5.0
+    }
+}

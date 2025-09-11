@@ -33,7 +33,7 @@ module Base
 
     recipe Convert to Vanilla Tire Type Heavy-Duty
     {
-        runFlat.LargeTire,
+        runFlat.LargeTire/Base.90chevyCKseriesTire1/Base.90chevyCKseriesTire2/Base.80chevyCKseriesTire1/Base.80chevyCKseriesTire2/Base.76chevyKseriesTire2,
 
         Result:Base.NormalTire2,
         Time:5.0
@@ -61,6 +61,14 @@ module Base
     /**************************************************************************/
     /* Bodywork                                                               */
     /**************************************************************************/
+    recipe Convert to Vanila Trunk Lid Type Heavy-Duty
+    {
+        Base.utilityBoxTrunkDoor2,
+
+        Result:Base.TrunkDoor2,
+        Time:5.0
+    }
+
     recipe Convert to Vanila Windshield Type Heavy-Duty
     {
         USMIL.SmallViewportPack0/USMIL.LargeViewportPack0,
