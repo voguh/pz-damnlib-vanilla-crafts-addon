@@ -138,3 +138,12 @@ option DAMNVanillaPartsAddon.Enable_76chevyKseries_UNSTABLE {
     page = DAMNVanillaPartsAddon,
     translation = DAMNVanillaPartsAddon_Enable_76chevyKseries_UNSTABLE
 }
+
+/******************************************************************************/
+
+option DAMNVanillaPartsAddon.Enable_77firebird {
+    type = boolean,
+    default = true,
+    page = DAMNVanillaPartsAddon,
+    translation = DAMNVanillaPartsAddon_Enable_77firebird
+}
